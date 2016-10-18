@@ -192,12 +192,15 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>${checkstyle.version}</version>
-        <configuration>
-          <configLocation>${basedir}/checkstyle.xml</configLocation>
-          <enableRulesSummary>false</enableRulesSummary>
-        </configuration>
-      </plugin>
+        <version>2.16</version>
+        <reportSets>
+          <reportSet>
+            <reports>
+              <report>checkstyle</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+        </plugin>
 
     </plugins>
   </build>
