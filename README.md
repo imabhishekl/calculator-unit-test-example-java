@@ -10,5 +10,3 @@ asd
 asd
 asdfkajsb
 afdkjbkj
-asd
-asd
