@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.8" branch-rate="1.0" lines-covered="4" lines-valid="5" branches-covered="0" branches-valid="0" complexity="1.0" version="2.1.1" timestamp="1476835354854">
+	<sources>
+		<source>/home/abhishek/github_repo/calculator-unit-test-example-java/target/generated-sources/annotations</source>
+		<source>--source</source>
+		<source>/home/abhishek/github_repo/calculator-unit-test-example-java/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="com.github.stokito.unitTestExample.calculator" line-rate="0.8" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="com.github.stokito.unitTestExample.calculator.Calculator" filename="com/github/stokito/unitTestExample/calculator/Calculator.java" line-rate="0.8" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="divide" signature="(II)I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="14" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="minus" signature="(II)I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="10" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="multiply" signature="(II)I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="18" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="sum" signature="(II)I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="6" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="4" branch="false"/>
+						<line number="6" hits="1" branch="false"/>
+						<line number="10" hits="1" branch="false"/>
+						<line number="14" hits="2" branch="false"/>
+						<line number="18" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
