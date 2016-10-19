@@ -5,8 +5,10 @@ public class Calculator {
 
         public int dummy(int a,int b)
         {
+            if(b < 10)
+                return 0;
             if(a > 10 && b < 211 && a != b)
-		return -1;
+		return 1;
             return 0;
         }
 
