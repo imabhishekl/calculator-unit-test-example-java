@@ -3,12 +3,17 @@ package com.github.stokito.unitTestExample.calculator;
 public class Calculator {
 
 
-        public int dummy(int a,int b)
+        public int dummy()
         {
-            if(b < 10)
-                return 0;
-            if(a > 10 && b < 211 && a != b)
-		return 1;
+            int a;
+            a = 10;
+            a = 10;
+            a = 10;
+            a = 10;
+            a = 10;
+            a = 10;
+            a = 10;
+            a = 10;
             return 0;
         }
 
