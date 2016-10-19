@@ -2,6 +2,14 @@ package com.github.stokito.unitTestExample.calculator;
 
 public class Calculator {
 
+
+        public int badCondition(int a,int b)
+        {
+            if(a == 10 && b == 11 && a < b || b == 0)
+		return -1;
+            return 0;
+        }
+
 	public int sum(int a, int b) {
 		return a + b;
 	}
