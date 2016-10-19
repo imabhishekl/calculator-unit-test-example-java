@@ -8,3 +8,4 @@ Also I would like to recommend you edit code Intellij Idea.
 Test Coverage Completed
 Check Style
 Build
+Build
