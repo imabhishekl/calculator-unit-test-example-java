@@ -109,7 +109,8 @@
         <!-- See http://checkstyle.sf.net/config_sizes.html -->
         <module name="LineLength"/>
         <module name="MethodLength">
-        	<property name="max" value="2"/>
+        	<property name="max" value="60"/>
+        </module>
         <module name="ParameterNumber"/>
 
         <!-- Checks for whitespace                               -->
@@ -167,3 +168,5 @@
         <module name="UpperEll"/>
 
     </module>
+
+</module>
