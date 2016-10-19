@@ -3,20 +3,6 @@ package com.github.stokito.unitTestExample.calculator;
 public class Calculator {
 
 
-        public int dummy()
-        {
-            int a;
-            a = 10;
-            a = 10;
-            a = 10;
-            a = 10;
-            a = 10;
-            a = 10;
-            a = 10;
-            a = 10;
-            return 0;
-        }
-
 	public int sum(int a, int b) {
 		return a + b;
 	}
