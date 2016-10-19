@@ -213,7 +213,7 @@
         <artifactId>maven-checkstyle-plugin</artifactId>
         <version>${checkstyle.version}</version>
         <configuration>
-          <configLocation>${basedir}/checkstyle.xml</configLocation>
+          <configLocation>${basedir}/cs.xml</configLocation>
           <enableRulesSummary>false</enableRulesSummary>
         </configuration>
         <!-- We need to specify reportSets because 2.9.1 creates two reports -->
