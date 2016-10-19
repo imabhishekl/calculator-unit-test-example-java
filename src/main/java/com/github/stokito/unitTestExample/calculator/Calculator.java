@@ -3,9 +3,9 @@ package com.github.stokito.unitTestExample.calculator;
 public class Calculator {
 
 
-        public int badCondition(int a,int b)
+        public int dummy(int a,int b)
         {
-            if(a == 10 && b == 11 && a < b || b == 0)
+            if(a == 10 && b == 11 && a < b)
 		return -1;
             return 0;
         }

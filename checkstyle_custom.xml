@@ -9,7 +9,7 @@
            <property name="max" value="30"/>
         </module>
         <module name="BooleanExpressionComplexity">
-            <property name="max" value="3"/>
+            <property name="max" value="2"/>
         </module>
     </module>
 </module>
