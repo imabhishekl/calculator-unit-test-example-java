@@ -213,7 +213,7 @@
         <artifactId>maven-checkstyle-plugin</artifactId>
         <version>2.16</version>
         <configuration>
-          <configLocation>checkstyle_custom.xml</configLocation>          
+          <configLocation>${basedir}/checkstyle_custom.xml</configLocation>          
         </configuration>
         <reportSets>
           <reportSet>
