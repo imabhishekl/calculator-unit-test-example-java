@@ -5,7 +5,7 @@ public class Calculator {
 
         public int dummy(int a,int b)
         {
-            if(a == 10 && b == 11 && a < b)
+            if(a > 10 && b < 211 && a != b)
 		return -1;
             return 0;
         }
