@@ -65,8 +65,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>        
         <checkstyle.header.file>${basedir}/LICENSE-header.txt</checkstyle.header.file>
-        <checkstyle.resourceExcludes>LICENSE.txt, NOTICE.txt</checkstyle.resourceExcludes>
-        <evosuiteVersion>1.0.3</evosuiteVersion>
+        <checkstyle.resourceExcludes>LICENSE.txt, NOTICE.txt</checkstyle.resourceExcludes>      
         <maven-checkstyle-plugin.version>2.16</maven-checkstyle-plugin.version>
         <checkstyle.config.location>${project.basedir}/checkstyle_custom.xml</checkstyle.config.location>
         <!-- <targetFolder>src/test/evosuite</targetFolder> -->
@@ -135,16 +134,7 @@
               </goals>
             </execution>
           </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.evosuite.plugins</groupId>
-        <artifactId>evosuite-maven-plugin</artifactId>
-        <version>1.0.3</version>
-        <executions><execution>
-           <goals> <goal> prepare </goal> </goals>
-           <phase> process-test-classes </phase>
-        </execution></executions>
-      </plugin>
+      </plugin>      
       <!-- <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>build-helper-maven-plugin</artifactId>
@@ -297,13 +287,5 @@
         <version>2.1</version>
       </plugin>
     </plugins>
-  </reporting>
-
-  <repositories>
-     <repository>
-       <id>EvoSuite</id>
-       <name>EvoSuite Repository</name>
-       <url>http://www.evosuite.org/m2</url>
-     </repository>
-  </repositories>
+  </reporting>  
 </project>
