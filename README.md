@@ -7,3 +7,4 @@ You should use Maven to build project.
 Also I would like to recommend you edit code Intellij Idea.
 Test Coverage Completed
 Check Style
+Build
