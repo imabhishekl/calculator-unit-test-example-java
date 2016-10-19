@@ -63,11 +63,12 @@
         <maven.compiler.target>1.7</maven.compiler.target>
         <!-- Ensure copies work OK (can be removed later when this is in parent POM) -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <checkstyle.version>2.17</checkstyle.version>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>        
         <checkstyle.header.file>${basedir}/LICENSE-header.txt</checkstyle.header.file>
         <checkstyle.resourceExcludes>LICENSE.txt, NOTICE.txt</checkstyle.resourceExcludes>
         <evosuiteVersion>1.0.3</evosuiteVersion>
+        <maven-checkstyle-plugin.version>2.16</maven-checkstyle-plugin.version>
+        <checkstyle.config.location>${project.basedir}/checkstyle_custom.xml</checkstyle.config.location>
         <!-- <targetFolder>src/test/evosuite</targetFolder> -->
   </properties>
 
@@ -83,6 +84,11 @@
               <ignorePathToDelete>archives/**</ignorePathToDelete>
             </ignorePathsToDelete>
           </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-checkstyle-plugin</artifactId>
+          <version>${maven-checkstyle-plugin.version}</version>
         </plugin>
       </plugins>
     </pluginManagement>
@@ -300,11 +306,4 @@
        <url>http://www.evosuite.org/m2</url>
      </repository>
   </repositories>
-  <pluginRepositories>
-    <pluginRepository>
-      <id>EvoSuite</id>
-      <name>EvoSuite Repository</name>
-      <url>http://www.evosuite.org/m2</url>
-    </pluginRepository>
-  </pluginRepositories>
 </project>
